@@ -1,7 +1,7 @@
 # AVIT ZSH Theme
 
 PROMPT='
-$(_user_host) ${_current_dir}$(_git)
+$(_user_host) ${_current_dir}$(_git_code)
 %{$fg[$CARETCOLOR]%}▶%{$resetcolor%} '
 
 PROMPT2='%{$fg[$CARETCOLOR]%}◀%{$reset_color%} '
@@ -12,7 +12,7 @@ local _current_dir="%{$fg_bold[blue]%}%1~%{$reset_color%} "
 local _return_status="%{$fg_bold[red]%}%(?..⍉)%{$reset_color%}"
 local _hist_no="%{$fg[grey]%}%h%{$reset_color%}"
 
-function _git() {
+function _git_code() {
   if $(git rev-parse --is-inside-work-tree >/dev/null 2>&1); then
     echo "($(git_prompt_info))"
   fi

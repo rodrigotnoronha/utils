@@ -1,0 +1,35 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AngularJS Snippets",
+		"Better CoffeeScript",
+		"Better RSpec",
+		"BracketHighlighter",
+		"Chain of Command",
+		"Color Highlighter",
+		"ColorPicker",
+		"CSS3",
+		"Emmet",
+		"ERB Autocomplete",
+		"HTML-CSS-JS Prettify",
+		"HTMLBeautify",
+		"ImageMagick",
+		"Javascript Beautify",
+		"LESS",
+		"Package Control",
+		"Preferences Editor",
+		"Pretty Ruby",
+		"RSpec",
+		"rspec-snippets",
+		"Ruby Slim",
+		"SCSS",
+		"SideBarEnhancements",
+		"Theme - Kronuz",
+		"Trimmer"
+	]
+}

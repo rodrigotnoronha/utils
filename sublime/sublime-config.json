@@ -1,0 +1,15 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"font_size": 8,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"remember_open_files": false,
+	"tab_size": 2,
+	"theme": "Theme - Kronuz.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"update_check": false
+}
+

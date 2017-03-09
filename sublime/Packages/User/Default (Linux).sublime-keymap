@@ -1,0 +1,16 @@
+[
+  {
+    "keys": ["ctrl+shift+r"],
+    "command": "reindent"
+  },
+  {
+    "keys": ["ctrl+s"],
+    "command": "chain",
+    "args": {
+      "commands": [
+        ["trimmer"],
+        ["save"]
+      ]
+    }
+  }
+ ]
